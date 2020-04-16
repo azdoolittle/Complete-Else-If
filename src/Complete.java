@@ -7,9 +7,11 @@ public class Complete {
         int number = inputNum.nextInt();
 
         if (number > 0) {
-            System.out.println("Number is positive.");
+            System.out.printf("%s is positive.\n", number);
         } else if (number < 0) {
-            System.out.println("Number is not positive.");
+            System.out.printf("%s is negative.\n", number);
+        } else {
+            System.out.printf("%s is neither positive nor negative.\n", number);
         }
 
         System.out.println("Application finished.");
